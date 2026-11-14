@@ -1,0 +1,132 @@
+{
+  "run_id": "20261114T051600Z",
+  "command": "inspect",
+  "started_at": "2026-11-14T05:16:00+00:00",
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "corpus": {
+    "source_id": "wb-ppp-2024",
+    "file": "Poverty, Prosperity, and Planet Report 2024.pdf",
+    "expected_sha256": "0f22fde0c8121a3d089db740e92a7bf7d36d9ae18d2d01014fad13288faaf746"
+  },
+  "manifest_sha256": "7b897e31820d7b648ce72e1b0b0610061eb1725cff515fa2cb14481003e9668a",
+  "benchmark_sha256": "b4d45ad2b307f060974f03bbc40ac40f6d8c77f2c005ce498a547ef2551e9195",
+  "strategies": {
+    "A": {
+      "chunking": "fixed_size",
+      "size": 500,
+      "overlap": 50,
+      "index": "A",
+      "use_filter": false
+    },
+    "B": {
+      "chunking": "by_paragraph",
+      "max_size": 800,
+      "index": "B",
+      "use_filter": false
+    },
+    "C": {
+      "chunking": "by_paragraph",
+      "max_size": 800,
+      "index": "B",
+      "use_filter": true
+    }
+  },
+  "top_k": 3,
+  "database": "postgresql://127.0.0.1:55433/day6_lab",
+  "cost": {
+    "usd": 0.0,
+    "note": "local model inference and local PostgreSQL; no paid API"
+  },
+  "extraction": {
+    "sha256": "0f22fde0c8121a3d089db740e92a7bf7d36d9ae18d2d01014fad13288faaf746",
+    "pages_loaded": 36,
+    "segments": 38,
+    "empty_pages": [],
+    "printed_page_mismatches": [],
+    "section_splits": [
+      {
+        "pdf_page": 53,
+        "anchor": "Pathways: Eradicating poverty and",
+        "offset": 1406,
+        "manifest_char_start": 1406,
+        "offset_matches_manifest": true
+      },
+      {
+        "pdf_page": 64,
+        "anchor": "Priorities: Doing what matters, where",
+        "offset": 997,
+        "manifest_char_start": 997,
+        "offset_matches_manifest": true
+      }
+    ],
+    "skipped_not_counted": [
+      37,
+      48,
+      50
+    ],
+    "normalization": {
+      "header_lines_removed": 71,
+      "yet_artifacts_fixed": 7,
+      "paragraphs": 138,
+      "figure_blocks_removed": 17,
+      "figure_chars_removed": 16770,
+      "figure_blocks_without_source_note": 3,
+      "numeric_lines_dropped": 199
+    },
+    "figure_blocks_removed_count": 17
+  },
+  "chunk_stats": {
+    "A": {
+      "chunks": 189,
+      "chars": {
+        "count": 189,
+        "total": 86708,
+        "min": 59,
+        "p10": 317,
+        "median": 500,
+        "mean": 458.8,
+        "p90": 500,
+        "max": 500
+      },
+      "by_section": {
+        "progress": 73,
+        "pathways": 69,
+        "priorities": 47
+      }
+    },
+    "B": {
+      "chunks": 130,
+      "chars": {
+        "count": 130,
+        "total": 79081,
+        "min": 167,
+        "p10": 336,
+        "median": 650.0,
+        "mean": 608.3,
+        "p90": 769,
+        "max": 797
+      },
+      "by_section": {
+        "progress": 50,
+        "pathways": 47,
+        "priorities": 33
+      }
+    }
+  },
+  "timings": {
+    "extract_normalize_s": 5.236,
+    "chunking_s": 0.004
+  },
+  "evidence_diagnostics_summary": {
+    "A": {
+      "ok": 14,
+      "evidence_split_across_chunks": 6
+    },
+    "B": {
+      "ok": 19,
+      "evidence_split_across_chunks": 1
+    }
+  },
+  "finished_at": "2026-11-14T05:16:05+00:00"
+}

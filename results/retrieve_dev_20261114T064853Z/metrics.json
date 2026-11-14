@@ -1,0 +1,77 @@
+{
+  "A": {
+    "dev": {
+      "questions": 15,
+      "hit_at_1": {
+        "n": 9,
+        "N": 15,
+        "rate": 0.6
+      },
+      "evidence_hit_at_3": {
+        "n": 10,
+        "N": 15,
+        "rate": 0.6666666666666666
+      },
+      "page_hit_at_3_diagnostic": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "filter_compliance_top3": {
+        "n": 1,
+        "N": 2,
+        "rate": 0.5
+      }
+    }
+  },
+  "B": {
+    "dev": {
+      "questions": 15,
+      "hit_at_1": {
+        "n": 11,
+        "N": 15,
+        "rate": 0.7333333333333333
+      },
+      "evidence_hit_at_3": {
+        "n": 13,
+        "N": 15,
+        "rate": 0.8666666666666667
+      },
+      "page_hit_at_3_diagnostic": {
+        "n": 14,
+        "N": 15,
+        "rate": 0.9333333333333333
+      },
+      "filter_compliance_top3": {
+        "n": 0,
+        "N": 2,
+        "rate": 0.0
+      }
+    }
+  },
+  "C": {
+    "dev": {
+      "questions": 15,
+      "hit_at_1": {
+        "n": 11,
+        "N": 15,
+        "rate": 0.7333333333333333
+      },
+      "evidence_hit_at_3": {
+        "n": 14,
+        "N": 15,
+        "rate": 0.9333333333333333
+      },
+      "page_hit_at_3_diagnostic": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "filter_compliance_top3": {
+        "n": 2,
+        "N": 2,
+        "rate": 1.0
+      }
+    }
+  }
+}

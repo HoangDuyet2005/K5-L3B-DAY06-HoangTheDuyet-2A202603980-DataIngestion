@@ -1,4 +1,16 @@
-# Core setup and PDF parsing. Choose and install an embedding SDK separately.
+# Core setup and PDF parsing.
 psycopg[binary]==3.3.8
 pypdf>=5,<7
 python-dotenv>=1,<2
+
+# Local embeddings: google/embeddinggemma-2 (model card: pip install -U sentence-transformers transformers).
+# Versions are not pinned yet because support for this model was not verified offline.
+# After installing, pin the exact versions (`python -m pip freeze`); run_metadata.json also records them.
+sentence-transformers
+transformers
+torch
+numpy
+# Required to load the model: its config declares a Gemma 4 image processor that
+# Sentence Transformers loads even for text-only use (ValueError without these).
+torchvision
+pillow
