@@ -1,0 +1,640 @@
+{
+  "manifest_version": "1",
+  "created_at": "2026-11-14",
+  "documents": [
+    {
+      "source_id": "wb-ppp-2024",
+      "title": "Poverty, Prosperity, and Planet Report 2024: Pathways Out of the Polycrisis",
+      "publisher": "World Bank",
+      "year": 2024,
+      "doi": "10.1596/978-1-4648-2123-3",
+      "source_path_or_url": "https://openknowledge.worldbank.org/bitstreams/8f505de6-d365-4f10-aa5a-353c39616895/download",
+      "license_or_permission": "CC BY 3.0 IGO",
+      "license_url": "http://creativecommons.org/licenses/by/3.0/igo",
+      "license_evidence": "Copyright page (PDF page 6): 'This work is available under the Creative Commons Attribution 3.0 IGO license (CC BY 3.0 IGO)'.",
+      "attribution": "World Bank. 2024. Poverty, Prosperity, and Planet Report 2024: Pathways Out of the Polycrisis. Washington, DC: World Bank. doi:10.1596/978-1-4648-2123-3.",
+      "accessed_at": "2026-11-14",
+      "accessed_at_note": "Date the local PDF copy was checked for this manifest. The download URL was not re-fetched during this check.",
+      "local_file": {
+        "filename": "Poverty, Prosperity, and Planet Report 2024.pdf",
+        "stored_in_repo": false,
+        "note": "PDF is not copied into the repo; obtain it from source_path_or_url and verify sha256.",
+        "sha256": "0f22fde0c8121a3d089db740e92a7bf7d36d9ae18d2d01014fad13288faaf746",
+        "size_bytes": 9353030,
+        "total_pdf_pages": 300,
+        "pdf_metadata": {
+          "Title": "Pathways Out of the Polycrisis",
+          "Author": "The World Bank Group",
+          "CreationDate": "D:20241004202059+05'30'",
+          "ModDate": "D:20241014143513+05'30'"
+        }
+      },
+      "selection": {
+        "part": "Overview",
+        "pdf_page_range": [
+          35,
+          73
+        ],
+        "printed_page_range": [
+          1,
+          39
+        ],
+        "pdf_to_printed_offset": 34,
+        "content_page_count": 36,
+        "counting_rule": "Scope is the 39 Overview pages (PDF 35-73 = printed 1-39). Pages counted as text content: the 36 pages that contain body paragraphs. PDF 37, 48 and 50 stay in scope but are not counted because their extracted text is only figure/map labels, sources and notes. Printed page number was checked as the first extracted line of each page.",
+        "excluded": [
+          "PDF 1-34: cover, title/copyright pages, contents, foreword, acknowledgments, about the team, main messages, abbreviations (front matter before the Overview)",
+          "PDF 74 onward: Overview notes (printed 40), references, and the rest of the report"
+        ],
+        "not_counted_in_scope": [
+          {
+            "pdf_page": 37,
+            "printed_page": 3,
+            "reason": "Figure O.1 only: panel titles, axis labels, source and note; no body paragraph"
+          },
+          {
+            "pdf_page": 48,
+            "printed_page": 14,
+            "reason": "Map O.1 and Figure O.6 only: legend, map ID, sources and notes; no body paragraph"
+          },
+          {
+            "pdf_page": 50,
+            "printed_page": 16,
+            "reason": "Figure O.7 only: panel labels, axis labels, source and note; no body paragraph"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "section": "progress",
+          "start": {
+            "pdf_page": 35,
+            "printed_page": 1,
+            "at": "start of page"
+          },
+          "end": {
+            "pdf_page": 53,
+            "printed_page": 19,
+            "at": "just before heading 'Pathways: Eradicating poverty and ...'"
+          },
+          "heading": "Progress: Global poverty reduction and improvements in shared prosperity have stalled"
+        },
+        {
+          "section": "pathways",
+          "start": {
+            "pdf_page": 53,
+            "printed_page": 19,
+            "at": "heading 'Pathways: Eradicating poverty and ...'"
+          },
+          "end": {
+            "pdf_page": 64,
+            "printed_page": 30,
+            "at": "just before heading 'Priorities: Doing what matters, where ...'"
+          },
+          "heading": "Pathways: Eradicating poverty and boosting shared prosperity on a livable planet requires managing trade-offs"
+        },
+        {
+          "section": "priorities",
+          "start": {
+            "pdf_page": 64,
+            "printed_page": 30,
+            "at": "heading 'Priorities: Doing what matters, where ...'"
+          },
+          "end": {
+            "pdf_page": 73,
+            "printed_page": 39,
+            "at": "end of page"
+          },
+          "heading": "Priorities: Doing what matters, where it matters most"
+        }
+      ],
+      "section_assignment": "Span-level. Pages without a section heading get one section for the whole page (pages[].section). PDF 53 and 64 contain a section heading mid-page: pages[].section is null and pages[].section_spans gives the section for each character range of the extracted text (half-open [char_start, char_end), offsets in the NFC pypdf text used for char_count).",
+      "section_boundary_notes": [
+        "PDF 53 (printed 19): text before the 'Pathways:' heading (climate hazards intensifying; electricity and drinking-water access in Sub-Saharan Africa) belongs to progress; the heading and text after it belong to pathways.",
+        "PDF 64 (printed 30): text before the 'Priorities:' heading (redistributing carbon revenues; tools against fuel price hikes) belongs to pathways; the heading and text after it belong to priorities.",
+        "PDF 35 (printed 1) starts with the Overview introduction before the 'Progress:' heading; it is assigned to progress (no earlier section exists in scope).",
+        "Offsets depend on the extractor. If another PDF library is used, locate the boundary by the heading anchor text, not by the stored offsets."
+      ],
+      "extraction": {
+        "tool": "pypdf 6.21.4",
+        "python": "3.11.9 (starter/.venv)",
+        "normalization": "Unicode NFC applied to extracted text",
+        "char_count_definition": "char_count = len(NFC text from pypdf extract_text()); char_count_ws_normalized = same after collapsing whitespace runs to one space",
+        "warnings": "pypdf printed 'fontTools is required to fully parse the encoding of a CFF Type1 font' for some fonts; spot-checked body text was readable.",
+        "known_artifacts": [
+          "inline footnote numbers attached to words (e.g. 'deaths21')",
+          "'Yet' sometimes extracted as 'Y et'",
+          "chart axis numbers and map/figure labels appear as separate lines",
+          "lowercased words in figure source/notes lines"
+        ]
+      },
+      "page_check": {
+        "pages_checked": "all PDF 35-73",
+        "empty_pages": [],
+        "near_empty_threshold_chars": 200,
+        "near_empty_pages": [],
+        "min_char_page": {
+          "pdf_page": 70,
+          "char_count": 1045
+        },
+        "total_char_count": 104127,
+        "total_char_count_ws_normalized": 103125,
+        "figure_or_map_only_pages": [
+          37,
+          48,
+          50
+        ],
+        "figure_or_map_only_note": "Not empty, but no body paragraph: every line of 12+ words on these pages is a panel title, Source or Note line (checked by reading the extracted text). Kept in the PDF 35-73 scope, excluded from the 36 counted text pages. Whether to ingest them is a separate decision; given rights_notes, not ingesting figure-only text is the conservative choice.",
+        "counted_text_pages": 36,
+        "counted_text_char_count": 99396,
+        "counted_pages_by_section_note": "progress 17 whole pages (35-52 minus 37, 48, 50) + part of 53; pathways part of 53 + 54-63 + part of 64; priorities part of 64 + 65-73"
+      },
+      "rights_notes": [
+        "License: CC BY 3.0 IGO; attribution required as given in 'attribution'.",
+        "Copyright page warns of third-party content: the World Bank does not necessarily own each component (examples include tables, figures, or images); reusers must determine whether permission is needed.",
+        "Do not put figures, tables, maps, images or other third-party components into the corpus unless their rights are clear. Pages listing figure/map/box labels are marked in pages[].figure_map_box_labels for filtering at ingestion.",
+        "Benchmark evidence (benchmark/questions.json) uses body text only."
+      ],
+      "pages": [
+        {
+          "page_id": "wb-ppp-2024-p035",
+          "pdf_page": 35,
+          "printed_page": 1,
+          "section": "progress",
+          "char_count": 2248,
+          "char_count_ws_normalized": 2223,
+          "figure_map_box_labels": [],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p036",
+          "pdf_page": 36,
+          "printed_page": 2,
+          "section": "progress",
+          "char_count": 3098,
+          "char_count_ws_normalized": 3067,
+          "figure_map_box_labels": [],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p037",
+          "pdf_page": 37,
+          "printed_page": 3,
+          "section": "progress",
+          "char_count": 1638,
+          "char_count_ws_normalized": 1629,
+          "figure_map_box_labels": [
+            "FIGURE O.1"
+          ],
+          "counted_as_text_content": false,
+          "not_counted_reason": "Figure O.1 only: panel titles, axis labels, source and note; no body paragraph"
+        },
+        {
+          "page_id": "wb-ppp-2024-p038",
+          "pdf_page": 38,
+          "printed_page": 4,
+          "section": "progress",
+          "char_count": 2252,
+          "char_count_ws_normalized": 2228,
+          "figure_map_box_labels": [
+            "FIGURE O.2"
+          ],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p039",
+          "pdf_page": 39,
+          "printed_page": 5,
+          "section": "progress",
+          "char_count": 2190,
+          "char_count_ws_normalized": 2171,
+          "figure_map_box_labels": [
+            "FIGURE O.3"
+          ],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p040",
+          "pdf_page": 40,
+          "printed_page": 6,
+          "section": "progress",
+          "char_count": 3565,
+          "char_count_ws_normalized": 3529,
+          "figure_map_box_labels": [],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p041",
+          "pdf_page": 41,
+          "printed_page": 7,
+          "section": "progress",
+          "char_count": 3454,
+          "char_count_ws_normalized": 3418,
+          "figure_map_box_labels": [],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p042",
+          "pdf_page": 42,
+          "printed_page": 8,
+          "section": "progress",
+          "char_count": 1924,
+          "char_count_ws_normalized": 1876,
+          "figure_map_box_labels": [
+            "BOX O.1",
+            "FIGURE BO.1.1"
+          ],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p043",
+          "pdf_page": 43,
+          "printed_page": 9,
+          "section": "progress",
+          "char_count": 1323,
+          "char_count_ws_normalized": 1314,
+          "figure_map_box_labels": [
+            "BOX O.1",
+            "FIGURE O.4"
+          ],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p044",
+          "pdf_page": 44,
+          "printed_page": 10,
+          "section": "progress",
+          "char_count": 1859,
+          "char_count_ws_normalized": 1846,
+          "figure_map_box_labels": [
+            "FIGURE O.4"
+          ],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p045",
+          "pdf_page": 45,
+          "printed_page": 11,
+          "section": "progress",
+          "char_count": 2301,
+          "char_count_ws_normalized": 2281,
+          "figure_map_box_labels": [
+            "FIGURE O.5"
+          ],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p046",
+          "pdf_page": 46,
+          "printed_page": 12,
+          "section": "progress",
+          "char_count": 3534,
+          "char_count_ws_normalized": 3498,
+          "figure_map_box_labels": [],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p047",
+          "pdf_page": 47,
+          "printed_page": 13,
+          "section": "progress",
+          "char_count": 2791,
+          "char_count_ws_normalized": 2756,
+          "figure_map_box_labels": [
+            "BOX O.2"
+          ],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p048",
+          "pdf_page": 48,
+          "printed_page": 14,
+          "section": "progress",
+          "char_count": 1852,
+          "char_count_ws_normalized": 1842,
+          "figure_map_box_labels": [
+            "FIGURE O.6",
+            "MAP O.1"
+          ],
+          "counted_as_text_content": false,
+          "not_counted_reason": "Map O.1 and Figure O.6 only: legend, map ID, sources and notes; no body paragraph"
+        },
+        {
+          "page_id": "wb-ppp-2024-p049",
+          "pdf_page": 49,
+          "printed_page": 15,
+          "section": "progress",
+          "char_count": 3535,
+          "char_count_ws_normalized": 3500,
+          "figure_map_box_labels": [],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p050",
+          "pdf_page": 50,
+          "printed_page": 16,
+          "section": "progress",
+          "char_count": 1241,
+          "char_count_ws_normalized": 1236,
+          "figure_map_box_labels": [
+            "FIGURE O.7"
+          ],
+          "counted_as_text_content": false,
+          "not_counted_reason": "Figure O.7 only: panel labels, axis labels, source and note; no body paragraph"
+        },
+        {
+          "page_id": "wb-ppp-2024-p051",
+          "pdf_page": 51,
+          "printed_page": 17,
+          "section": "progress",
+          "char_count": 1997,
+          "char_count_ws_normalized": 1982,
+          "figure_map_box_labels": [
+            "BOX O.3",
+            "MAP O.2"
+          ],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p052",
+          "pdf_page": 52,
+          "printed_page": 18,
+          "section": "progress",
+          "char_count": 2285,
+          "char_count_ws_normalized": 2266,
+          "figure_map_box_labels": [
+            "BOX O.3",
+            "FIGURE BO.3.1"
+          ],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p053",
+          "pdf_page": 53,
+          "printed_page": 19,
+          "section": null,
+          "char_count": 3190,
+          "char_count_ws_normalized": 3158,
+          "figure_map_box_labels": [],
+          "counted_as_text_content": true,
+          "section_spans": [
+            {
+              "section": "progress",
+              "char_start": 0,
+              "char_end": 1406,
+              "ends_before": "Pathways: Eradicating poverty and"
+            },
+            {
+              "section": "pathways",
+              "char_start": 1406,
+              "char_end": 3190,
+              "starts_with": "Pathways: Eradicating poverty and"
+            }
+          ]
+        },
+        {
+          "page_id": "wb-ppp-2024-p054",
+          "pdf_page": 54,
+          "printed_page": 20,
+          "section": "pathways",
+          "char_count": 3458,
+          "char_count_ws_normalized": 3426,
+          "figure_map_box_labels": [],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p055",
+          "pdf_page": 55,
+          "printed_page": 21,
+          "section": "pathways",
+          "char_count": 3585,
+          "char_count_ws_normalized": 3550,
+          "figure_map_box_labels": [],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p056",
+          "pdf_page": 56,
+          "printed_page": 22,
+          "section": "pathways",
+          "char_count": 2916,
+          "char_count_ws_normalized": 2893,
+          "figure_map_box_labels": [
+            "FIGURE O.8"
+          ],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p057",
+          "pdf_page": 57,
+          "printed_page": 23,
+          "section": "pathways",
+          "char_count": 3364,
+          "char_count_ws_normalized": 3327,
+          "figure_map_box_labels": [],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p058",
+          "pdf_page": 58,
+          "printed_page": 24,
+          "section": "pathways",
+          "char_count": 2437,
+          "char_count_ws_normalized": 2416,
+          "figure_map_box_labels": [
+            "FIGURE O.9"
+          ],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p059",
+          "pdf_page": 59,
+          "printed_page": 25,
+          "section": "pathways",
+          "char_count": 2250,
+          "char_count_ws_normalized": 2232,
+          "figure_map_box_labels": [
+            "FIGURE O.10"
+          ],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p060",
+          "pdf_page": 60,
+          "printed_page": 26,
+          "section": "pathways",
+          "char_count": 2302,
+          "char_count_ws_normalized": 2284,
+          "figure_map_box_labels": [
+            "FIGURE O.11"
+          ],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p061",
+          "pdf_page": 61,
+          "printed_page": 27,
+          "section": "pathways",
+          "char_count": 3380,
+          "char_count_ws_normalized": 3346,
+          "figure_map_box_labels": [],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p062",
+          "pdf_page": 62,
+          "printed_page": 28,
+          "section": "pathways",
+          "char_count": 3463,
+          "char_count_ws_normalized": 3429,
+          "figure_map_box_labels": [],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p063",
+          "pdf_page": 63,
+          "printed_page": 29,
+          "section": "pathways",
+          "char_count": 3711,
+          "char_count_ws_normalized": 3676,
+          "figure_map_box_labels": [],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p064",
+          "pdf_page": 64,
+          "printed_page": 30,
+          "section": null,
+          "char_count": 3276,
+          "char_count_ws_normalized": 3243,
+          "figure_map_box_labels": [],
+          "counted_as_text_content": true,
+          "section_spans": [
+            {
+              "section": "pathways",
+              "char_start": 0,
+              "char_end": 997,
+              "ends_before": "Priorities: Doing what matters, where"
+            },
+            {
+              "section": "priorities",
+              "char_start": 997,
+              "char_end": 3276,
+              "starts_with": "Priorities: Doing what matters, where"
+            }
+          ]
+        },
+        {
+          "page_id": "wb-ppp-2024-p065",
+          "pdf_page": 65,
+          "printed_page": 31,
+          "section": "priorities",
+          "char_count": 2163,
+          "char_count_ws_normalized": 2138,
+          "figure_map_box_labels": [
+            "FIGURE O.12"
+          ],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p066",
+          "pdf_page": 66,
+          "printed_page": 32,
+          "section": "priorities",
+          "char_count": 2297,
+          "char_count_ws_normalized": 2278,
+          "figure_map_box_labels": [
+            "FIGURE O.13"
+          ],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p067",
+          "pdf_page": 67,
+          "printed_page": 33,
+          "section": "priorities",
+          "char_count": 3555,
+          "char_count_ws_normalized": 3518,
+          "figure_map_box_labels": [],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p068",
+          "pdf_page": 68,
+          "printed_page": 34,
+          "section": "priorities",
+          "char_count": 2422,
+          "char_count_ws_normalized": 2404,
+          "figure_map_box_labels": [
+            "FIGURE O.14"
+          ],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p069",
+          "pdf_page": 69,
+          "printed_page": 35,
+          "section": "priorities",
+          "char_count": 2874,
+          "char_count_ws_normalized": 2845,
+          "figure_map_box_labels": [],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p070",
+          "pdf_page": 70,
+          "printed_page": 36,
+          "section": "priorities",
+          "char_count": 1045,
+          "char_count_ws_normalized": 1039,
+          "figure_map_box_labels": [
+            "FIGURE O.15"
+          ],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p071",
+          "pdf_page": 71,
+          "printed_page": 37,
+          "section": "priorities",
+          "char_count": 2695,
+          "char_count_ws_normalized": 2672,
+          "figure_map_box_labels": [
+            "FIGURE O.15"
+          ],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p072",
+          "pdf_page": 72,
+          "printed_page": 38,
+          "section": "priorities",
+          "char_count": 3351,
+          "char_count_ws_normalized": 3317,
+          "figure_map_box_labels": [],
+          "counted_as_text_content": true
+        },
+        {
+          "page_id": "wb-ppp-2024-p073",
+          "pdf_page": 73,
+          "printed_page": 39,
+          "section": "priorities",
+          "char_count": 3306,
+          "char_count_ws_normalized": 3272,
+          "figure_map_box_labels": [],
+          "counted_as_text_content": true
+        }
+      ],
+      "section_page_ranges_simplified": {
+        "progress": "PDF 35-52 whole pages + PDF 53 before heading",
+        "pathways": "PDF 53 from heading + PDF 54-63 whole pages + PDF 64 before heading",
+        "priorities": "PDF 64 from heading + PDF 65-73 whole pages"
+      },
+      "chunk_section_rule": [
+        "Before chunking, split the text of PDF 53 and 64 at the heading anchor (first occurrence of the anchor string), giving two segments per page, each carrying its own section.",
+        "Chunk each segment separately, in every strategy (A, B, C), so no chunk crosses a section heading; keep the same page number on both segments and store the segment's char range for traceability.",
+        "If a strategy is allowed to cross the boundary instead, do not assign one section to the whole chunk: store all sections it covers (e.g. a list) and mark it mixed, and record how config C filters such chunks. Pick one rule and keep it identical across strategies."
+      ]
+    }
+  ]
+}
