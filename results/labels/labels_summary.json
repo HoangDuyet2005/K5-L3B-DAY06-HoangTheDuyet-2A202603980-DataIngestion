@@ -1,0 +1,57 @@
+{
+  "A": {
+    "coherence": {
+      "n": 10,
+      "count_0": 0,
+      "count_1": 9,
+      "count_2": 1,
+      "mean_of_2": 1.1
+    },
+    "metadata_complete_correct": "15/15",
+    "filter_compliance_top3": "1/2",
+    "grounding": {
+      "n": 5,
+      "count_0": 0,
+      "count_1": 0,
+      "count_2": 5,
+      "mean_of_2": 2.0
+    }
+  },
+  "B": {
+    "coherence": {
+      "n": 10,
+      "count_0": 0,
+      "count_1": 3,
+      "count_2": 7,
+      "mean_of_2": 1.7
+    },
+    "metadata_complete_correct": "15/15",
+    "filter_compliance_top3": "0/2",
+    "grounding": {
+      "n": 5,
+      "count_0": 1,
+      "count_1": 0,
+      "count_2": 4,
+      "mean_of_2": 1.6
+    }
+  },
+  "C": {
+    "coherence": {
+      "n": 10,
+      "count_0": 0,
+      "count_1": 3,
+      "count_2": 7,
+      "mean_of_2": 1.7
+    },
+    "metadata_complete_correct": "15/15",
+    "filter_compliance_top3": "2/2",
+    "grounding": {
+      "n": 5,
+      "count_0": 0,
+      "count_1": 0,
+      "count_2": 5,
+      "mean_of_2": 2.0
+    }
+  },
+  "rows_reviewed_by_author": "90/90"
+}

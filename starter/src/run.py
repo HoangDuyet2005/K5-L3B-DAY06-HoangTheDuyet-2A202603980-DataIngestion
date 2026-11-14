@@ -125,7 +125,12 @@ def build_chunks(segments: list[DocumentPage]) -> dict[str, list[Chunk]]:
 
 def evidence_diagnostics(questions: list[dict[str, Any]], segments: list[DocumentPage],
                          chunks: dict[str, list[Chunk]]) -> list[dict[str, Any]]:
-    """Is each evidence quote still present after normalization, and inside one chunk per strategy?"""
+    """Is each evidence quote still present after normalization, and inside one chunk per strategy?
+
+    The normalization check runs for every question (GUIDE §2: evidence must exist after normalization).
+    Per-strategy chunk containment is computed for dev only, so tuning the chunkers never looks at
+    test outcomes (RULES: no tuning on test). Test rows get status "not_checked_test_split".
+    """
     rows = []
     for q in questions:
         quote = canonical_for_match(q["evidence_quote"])
@@ -136,6 +141,10 @@ def evidence_diagnostics(questions: list[dict[str, Any]], segments: list[Documen
                "segment_sections": [s.metadata["section"] for s in page_segments
                                     if s.metadata["segment_index"] in in_segment]}
         for strategy, items in chunks.items():
+            if q["split"] != "dev":
+                row[f"{strategy}_chunks_containing_evidence"] = None
+                row[f"{strategy}_status"] = "not_checked_test_split"
+                continue
             containing = [c for c in items if c.page == q["gold_page"] and quote in canonical_for_match(c.text)]
             row[f"{strategy}_chunks_containing_evidence"] = [c.chunk_id for c in containing]
             row[f"{strategy}_status"] = ("ok" if containing else

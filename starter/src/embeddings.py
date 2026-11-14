@@ -28,7 +28,8 @@ class Embedder(Protocol):
 
 def package_versions() -> dict[str, str | None]:
     versions = {}
-    for name in ("sentence-transformers", "transformers", "torch", "huggingface-hub", "numpy", "psycopg", "pypdf"):
+    for name in ("sentence-transformers", "transformers", "torch", "torchvision", "pillow", "huggingface-hub",
+                 "numpy", "psycopg", "pypdf", "python-dotenv"):
         try:
             versions[name] = importlib.metadata.version(name)
         except importlib.metadata.PackageNotFoundError:

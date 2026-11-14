@@ -1,16 +1,17 @@
 # Core setup and PDF parsing.
 psycopg[binary]==3.3.8
-pypdf>=5,<7
-python-dotenv>=1,<2
+pypdf==6.21.4
+python-dotenv==1.2.4
 
-# Local embeddings: google/embeddinggemma-2 (model card: pip install -U sentence-transformers transformers).
-# Versions are not pinned yet because support for this model was not verified offline.
-# After installing, pin the exact versions (`python -m pip freeze`); run_metadata.json also records them.
-sentence-transformers
-transformers
-torch
-numpy
+# Local embeddings: google/embeddinggemma-2 via Sentence Transformers (model card: pip install -U sentence-transformers transformers).
+# Pinned to the versions used for every recorded run (2026-11-14, Python 3.11.9, Windows, CPU).
+# Full environment snapshot: requirements-lock.txt (python -m pip freeze).
+sentence-transformers==6.3.0
+transformers==5.23.0
+torch==2.15.0
+huggingface-hub==2.4.0
+numpy==2.4.6
 # Required to load the model: its config declares a Gemma 4 image processor that
 # Sentence Transformers loads even for text-only use (ValueError without these).
-torchvision
-pillow
+torchvision==0.29.2
+pillow==13.0.0

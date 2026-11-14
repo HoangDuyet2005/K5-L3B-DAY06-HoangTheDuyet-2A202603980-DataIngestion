@@ -1,0 +1,488 @@
+[
+ {
+  "strategy": "A",
+  "question_id": "q16",
+  "rank": 1,
+  "chunk_id": "A:wb-ppp-2024:p046s0:c004",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "progress",
+  "problems": []
+ },
+ {
+  "strategy": "A",
+  "question_id": "q16",
+  "rank": 2,
+  "chunk_id": "A:wb-ppp-2024:p045s0:c002",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "progress",
+  "problems": []
+ },
+ {
+  "strategy": "A",
+  "question_id": "q16",
+  "rank": 3,
+  "chunk_id": "A:wb-ppp-2024:p046s0:c005",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "progress",
+  "problems": []
+ },
+ {
+  "strategy": "B",
+  "question_id": "q16",
+  "rank": 1,
+  "chunk_id": "B:wb-ppp-2024:p046s0:c004",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "progress",
+  "problems": []
+ },
+ {
+  "strategy": "B",
+  "question_id": "q16",
+  "rank": 2,
+  "chunk_id": "B:wb-ppp-2024:p046s0:c003",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "progress",
+  "problems": []
+ },
+ {
+  "strategy": "B",
+  "question_id": "q16",
+  "rank": 3,
+  "chunk_id": "B:wb-ppp-2024:p045s0:c001",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "progress",
+  "problems": []
+ },
+ {
+  "strategy": "C",
+  "question_id": "q16",
+  "rank": 1,
+  "chunk_id": "B:wb-ppp-2024:p046s0:c004",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "progress",
+  "problems": []
+ },
+ {
+  "strategy": "C",
+  "question_id": "q16",
+  "rank": 2,
+  "chunk_id": "B:wb-ppp-2024:p046s0:c003",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "progress",
+  "problems": []
+ },
+ {
+  "strategy": "C",
+  "question_id": "q16",
+  "rank": 3,
+  "chunk_id": "B:wb-ppp-2024:p045s0:c001",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "progress",
+  "problems": []
+ },
+ {
+  "strategy": "A",
+  "question_id": "q17",
+  "rank": 1,
+  "chunk_id": "A:wb-ppp-2024:p058s0:c000",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "pathways",
+  "problems": []
+ },
+ {
+  "strategy": "A",
+  "question_id": "q17",
+  "rank": 2,
+  "chunk_id": "A:wb-ppp-2024:p058s0:c001",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "pathways",
+  "problems": []
+ },
+ {
+  "strategy": "A",
+  "question_id": "q17",
+  "rank": 3,
+  "chunk_id": "A:wb-ppp-2024:p069s0:c004",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "priorities",
+  "problems": []
+ },
+ {
+  "strategy": "B",
+  "question_id": "q17",
+  "rank": 1,
+  "chunk_id": "B:wb-ppp-2024:p058s0:c000",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "pathways",
+  "problems": []
+ },
+ {
+  "strategy": "B",
+  "question_id": "q17",
+  "rank": 2,
+  "chunk_id": "B:wb-ppp-2024:p069s0:c003",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "priorities",
+  "problems": []
+ },
+ {
+  "strategy": "B",
+  "question_id": "q17",
+  "rank": 3,
+  "chunk_id": "B:wb-ppp-2024:p070s0:c000",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "priorities",
+  "problems": []
+ },
+ {
+  "strategy": "C",
+  "question_id": "q17",
+  "rank": 1,
+  "chunk_id": "B:wb-ppp-2024:p058s0:c000",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "pathways",
+  "problems": []
+ },
+ {
+  "strategy": "C",
+  "question_id": "q17",
+  "rank": 2,
+  "chunk_id": "B:wb-ppp-2024:p069s0:c003",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "priorities",
+  "problems": []
+ },
+ {
+  "strategy": "C",
+  "question_id": "q17",
+  "rank": 3,
+  "chunk_id": "B:wb-ppp-2024:p070s0:c000",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "priorities",
+  "problems": []
+ },
+ {
+  "strategy": "A",
+  "question_id": "q18",
+  "rank": 1,
+  "chunk_id": "A:wb-ppp-2024:p061s0:c001",
+  "text_found_on_page": 1.0,
+  "question_filter": {
+   "section": "pathways"
+  },
+  "section": "pathways",
+  "problems": []
+ },
+ {
+  "strategy": "A",
+  "question_id": "q18",
+  "rank": 2,
+  "chunk_id": "A:wb-ppp-2024:p061s0:c000",
+  "text_found_on_page": 1.0,
+  "question_filter": {
+   "section": "pathways"
+  },
+  "section": "pathways",
+  "problems": []
+ },
+ {
+  "strategy": "A",
+  "question_id": "q18",
+  "rank": 3,
+  "chunk_id": "A:wb-ppp-2024:p061s0:c002",
+  "text_found_on_page": 1.0,
+  "question_filter": {
+   "section": "pathways"
+  },
+  "section": "pathways",
+  "problems": []
+ },
+ {
+  "strategy": "B",
+  "question_id": "q18",
+  "rank": 1,
+  "chunk_id": "B:wb-ppp-2024:p061s0:c000",
+  "text_found_on_page": 1.0,
+  "question_filter": {
+   "section": "pathways"
+  },
+  "section": "pathways",
+  "problems": []
+ },
+ {
+  "strategy": "B",
+  "question_id": "q18",
+  "rank": 2,
+  "chunk_id": "B:wb-ppp-2024:p061s0:c001",
+  "text_found_on_page": 1.0,
+  "question_filter": {
+   "section": "pathways"
+  },
+  "section": "pathways",
+  "problems": []
+ },
+ {
+  "strategy": "B",
+  "question_id": "q18",
+  "rank": 3,
+  "chunk_id": "B:wb-ppp-2024:p035s0:c001",
+  "text_found_on_page": 1.0,
+  "question_filter": {
+   "section": "pathways"
+  },
+  "section": "progress",
+  "problems": []
+ },
+ {
+  "strategy": "C",
+  "question_id": "q18",
+  "rank": 1,
+  "chunk_id": "B:wb-ppp-2024:p061s0:c000",
+  "text_found_on_page": 1.0,
+  "question_filter": {
+   "section": "pathways"
+  },
+  "section": "pathways",
+  "problems": []
+ },
+ {
+  "strategy": "C",
+  "question_id": "q18",
+  "rank": 2,
+  "chunk_id": "B:wb-ppp-2024:p061s0:c001",
+  "text_found_on_page": 1.0,
+  "question_filter": {
+   "section": "pathways"
+  },
+  "section": "pathways",
+  "problems": []
+ },
+ {
+  "strategy": "C",
+  "question_id": "q18",
+  "rank": 3,
+  "chunk_id": "B:wb-ppp-2024:p053s1:c000",
+  "text_found_on_page": 1.0,
+  "question_filter": {
+   "section": "pathways"
+  },
+  "section": "pathways",
+  "problems": []
+ },
+ {
+  "strategy": "A",
+  "question_id": "q19",
+  "rank": 1,
+  "chunk_id": "A:wb-ppp-2024:p067s0:c005",
+  "text_found_on_page": 1.0,
+  "question_filter": {
+   "section": "priorities"
+  },
+  "section": "priorities",
+  "problems": []
+ },
+ {
+  "strategy": "A",
+  "question_id": "q19",
+  "rank": 2,
+  "chunk_id": "A:wb-ppp-2024:p067s0:c006",
+  "text_found_on_page": 1.0,
+  "question_filter": {
+   "section": "priorities"
+  },
+  "section": "priorities",
+  "problems": []
+ },
+ {
+  "strategy": "A",
+  "question_id": "q19",
+  "rank": 3,
+  "chunk_id": "A:wb-ppp-2024:p049s0:c007",
+  "text_found_on_page": 1.0,
+  "question_filter": {
+   "section": "priorities"
+  },
+  "section": "progress",
+  "problems": []
+ },
+ {
+  "strategy": "B",
+  "question_id": "q19",
+  "rank": 1,
+  "chunk_id": "B:wb-ppp-2024:p067s0:c004",
+  "text_found_on_page": 1.0,
+  "question_filter": {
+   "section": "priorities"
+  },
+  "section": "priorities",
+  "problems": []
+ },
+ {
+  "strategy": "B",
+  "question_id": "q19",
+  "rank": 2,
+  "chunk_id": "B:wb-ppp-2024:p066s0:c001",
+  "text_found_on_page": 1.0,
+  "question_filter": {
+   "section": "priorities"
+  },
+  "section": "priorities",
+  "problems": []
+ },
+ {
+  "strategy": "B",
+  "question_id": "q19",
+  "rank": 3,
+  "chunk_id": "B:wb-ppp-2024:p049s0:c003",
+  "text_found_on_page": 1.0,
+  "question_filter": {
+   "section": "priorities"
+  },
+  "section": "progress",
+  "problems": []
+ },
+ {
+  "strategy": "C",
+  "question_id": "q19",
+  "rank": 1,
+  "chunk_id": "B:wb-ppp-2024:p067s0:c004",
+  "text_found_on_page": 1.0,
+  "question_filter": {
+   "section": "priorities"
+  },
+  "section": "priorities",
+  "problems": []
+ },
+ {
+  "strategy": "C",
+  "question_id": "q19",
+  "rank": 2,
+  "chunk_id": "B:wb-ppp-2024:p066s0:c001",
+  "text_found_on_page": 1.0,
+  "question_filter": {
+   "section": "priorities"
+  },
+  "section": "priorities",
+  "problems": []
+ },
+ {
+  "strategy": "C",
+  "question_id": "q19",
+  "rank": 3,
+  "chunk_id": "B:wb-ppp-2024:p067s0:c003",
+  "text_found_on_page": 1.0,
+  "question_filter": {
+   "section": "priorities"
+  },
+  "section": "priorities",
+  "problems": []
+ },
+ {
+  "strategy": "A",
+  "question_id": "q20",
+  "rank": 1,
+  "chunk_id": "A:wb-ppp-2024:p073s0:c003",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "priorities",
+  "problems": []
+ },
+ {
+  "strategy": "A",
+  "question_id": "q20",
+  "rank": 2,
+  "chunk_id": "A:wb-ppp-2024:p073s0:c002",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "priorities",
+  "problems": []
+ },
+ {
+  "strategy": "A",
+  "question_id": "q20",
+  "rank": 3,
+  "chunk_id": "A:wb-ppp-2024:p056s0:c003",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "pathways",
+  "problems": []
+ },
+ {
+  "strategy": "B",
+  "question_id": "q20",
+  "rank": 1,
+  "chunk_id": "B:wb-ppp-2024:p073s0:c002",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "priorities",
+  "problems": []
+ },
+ {
+  "strategy": "B",
+  "question_id": "q20",
+  "rank": 2,
+  "chunk_id": "B:wb-ppp-2024:p073s0:c001",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "priorities",
+  "problems": []
+ },
+ {
+  "strategy": "B",
+  "question_id": "q20",
+  "rank": 3,
+  "chunk_id": "B:wb-ppp-2024:p056s0:c002",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "pathways",
+  "problems": []
+ },
+ {
+  "strategy": "C",
+  "question_id": "q20",
+  "rank": 1,
+  "chunk_id": "B:wb-ppp-2024:p073s0:c002",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "priorities",
+  "problems": []
+ },
+ {
+  "strategy": "C",
+  "question_id": "q20",
+  "rank": 2,
+  "chunk_id": "B:wb-ppp-2024:p073s0:c001",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "priorities",
+  "problems": []
+ },
+ {
+  "strategy": "C",
+  "question_id": "q20",
+  "rank": 3,
+  "chunk_id": "B:wb-ppp-2024:p056s0:c002",
+  "text_found_on_page": 1.0,
+  "question_filter": null,
+  "section": "pathways",
+  "problems": []
+ }
+]
